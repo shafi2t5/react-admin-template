@@ -10,7 +10,7 @@ const Dashboard: React.FC<Props> = () => {
   //   (state: RootState) => state.uislice.isAuthorized
   // );
   // const { data } = useGetDashboardInfoQuery();
-  return <div>Dashboard</div>;
+  return <div>Dashboard Page</div>;
 };
 
 export default Dashboard;
