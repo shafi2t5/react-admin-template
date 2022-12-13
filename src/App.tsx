@@ -1,4 +1,5 @@
-import "./App.css";
+import "./styles/color.css";
+import "./styles/typography.css";
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/dashboard";
 import Products from "./pages/products";
