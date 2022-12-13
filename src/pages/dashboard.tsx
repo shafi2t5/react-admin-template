@@ -3,7 +3,9 @@ import * as React from "react";
 // import { useGetDashboardInfoQuery } from "../framework/dashboard/get-dashboard-info";
 // import { RootState } from "../store";
 
-export interface Props {}
+export interface Props {
+  title?: string;
+}
 
 const Dashboard: React.FC<Props> = () => {
   // const isAuthorized = useSelector(

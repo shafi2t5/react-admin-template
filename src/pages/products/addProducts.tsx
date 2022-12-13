@@ -1,6 +1,8 @@
 import * as React from "react";
 
-export interface Props {}
+export interface Props {
+  title?: string;
+}
 
 const AddProducts: React.FC<Props> = () => {
   return <div>Add Products</div>;
